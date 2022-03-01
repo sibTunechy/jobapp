@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import millify from 'millify';
+import {Typography, Row, Col, Statistic} from 'antd';
+import icon from './image/ballu.jpg';
+import './App.css'
+
+const {Title} = Typography;   // Title destrcutured from Typography
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main'>
+      <div className='header-image'>
+        <img className='photo-icon' src={icon} alt='football'/>
+
+      </div>
+ 
     </div>
   );
 }
