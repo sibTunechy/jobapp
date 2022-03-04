@@ -12,7 +12,7 @@ const Football = () => {
   return ( 
   <>
     <Row gutter={[32, 32]} className='league-cards'> 
-        {leagueList.map((teams) => (
+        {leagues.map((teams) => (
           <Col xs={24}>
           
           </Col>
@@ -23,4 +23,4 @@ const Football = () => {
   )
 }
 
-export default Football
+export default Football;
